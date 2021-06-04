@@ -4,7 +4,7 @@ This repo is about demonstration of various search techniques used in artificial
 
 ---
 
-## Introduction
+## Theory
 
 ### Local Search Techniques
 
@@ -51,6 +51,18 @@ The informed search algorithms are provided with additional information other th
    -  Requires large memory which is proportional to the number of currently expanded nodes (for storing frontier and explored set).
    -  eg. Robot Pathing
    -  More information can be found [here](https://en.wikipedia.org/wiki/A*_search_algorithm)
+
+---
+
+## Implementation
+
+### For Hill Climbing Algorithms
+
+The program prints a grid of configurable size with some random values within it. The user is asked to input a grid location as *row_number column_number* (Eg: 3 5). The algorithm finds the location of maximum value that the user can reach by following the path deduced from the algorithm. The output is the max value location and the path followed to reach that location.
+
+### For A-star algorithm
+
+The program prints a grid of 0s and 1s where 0 represents a valid cell and 1 represents a blocked cell i.e. we cannot move on that cell. The user is asked to input a start and end position as *row_number column_number* (Eg: 3 5). The output is the path followed to reach the end position from the start position by applying the A-star algorithm.
 
 ---
 
